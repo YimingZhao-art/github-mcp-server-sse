@@ -5,7 +5,7 @@ import type { Props } from "../../utils";
 
 export function registerCreateIssueTool(server: McpServer, props: Props) {
   server.tool(
-    "createIssue",
+    "create_issue",
     "Create a new issue in a GitHub repository",
     createIssueSchema,
     async (args) => {
