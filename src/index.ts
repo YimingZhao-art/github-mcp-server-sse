@@ -56,7 +56,7 @@ export class MyMCP extends McpAgent<Props, Env> {
 
 		// Use the upstream access token to facilitate tools
 		this.server.tool(
-			"userInfoOctokit",
+			"user_info",
 			"Get user info from GitHub, via Octokit",
 			{},
 			async () => {
